@@ -16,3 +16,28 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* styles for timer */
+
+.timer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+ margin: 10px; 
+}
+
+.value {
+  padding-left: 10px;
+}
+
+.label{
+  padding-right: 5px;
+}
+
+.field{
+  border: 1px solid #615454;
+  border-radius: 3px;
+  margin-left: 10px;
+}
